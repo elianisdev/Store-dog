@@ -7,7 +7,7 @@ const TodoCreateButton = () => {
       <button className="CreateTodoButton"
       onClick={
         (event) => {
-          console.log('le diste click')
+          console.log('le diste click al botón')
           console.log(event)
           console.log(event.target)
         }
