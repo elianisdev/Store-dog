@@ -11,7 +11,7 @@ const TodoCounter = ({ completado, total }) => {
        margin:0,
        padding: '48px'
      }}>
-       Completaste {completado} de {total} tareas
+       Completed {completado} of {total} task
      </h1>
   );
 };
