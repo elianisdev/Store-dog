@@ -1,5 +1,5 @@
 .TodoItem {
-    background-color: beige;
+    background-color: lavenderblush;
     position: relative;
     display: flex;
     justify-content: center;
@@ -29,6 +29,7 @@
     width: 48px;
     font-size: 24px;
     font-weight: bold;
+    color: deeppink;
 }
 
 .Icon-check {
@@ -37,7 +38,7 @@
 }
 
 .Icon-check--active {
-    color: aquamarine;
+    color:mediumpurple ;
 }
 
 .Icon-delete {

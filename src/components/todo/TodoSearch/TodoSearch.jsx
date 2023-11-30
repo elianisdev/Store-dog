@@ -3,7 +3,6 @@ import "./TodoSearch.css"
 
 const TodoSearch = ({searchValue, setSearchValue}) => {
 
-
   return (
     <div>
     <input placeholder='Estudiar dos horas diarias'

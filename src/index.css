@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: #FAFAFA;
   color: blueviolet;
-  font-family: Arial;
+  font-family: Arial, serif;
 }
 #root {
   margin: 0 24px;
