@@ -16,8 +16,18 @@ const defaultTodos = [
 const About = () => {
   const [todos, setTodos] = useState(defaultTodos)
   const [searchValue, setSearchValue] = useState('');
-  const completedTodos = todos.filter(todo=> !!todo.completed).length;
+  const completedTodos = todos.filter(todo=>
+    !!todo.completed).length;
   const totalTodos = todos.length;
+
+  const searchedTodos = todos.filter(
+    (todo) => {
+      const todoText = todo.text.toLowerCase();
+      const searchText = searchValue.toLowerCase();
+      return todo.text.includes(searchText)
+    }
+  )
+
   console.log('Los Usuarios buscan todos de ' + searchValue)
 
   return (
@@ -31,7 +41,7 @@ const About = () => {
       setSearchValue={setSearchValue}
       />
       <TodoList>
-        {defaultTodos.map((todo, index) => (
+        {searchedTodos.map((todo, index) => (
           <TodoItem
             key={index}
             text={todo.text}
