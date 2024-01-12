@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+<body>
+<h1>Registar Usuario</h1>
+<form>
+    <label for="username"><br/><b>Nombre de usuario: </b></label>
+    <input name="username" type="text" id="username" placeholder="Ejemplo: gogodev" />
+    <br>
+    <label for="email"><br/><b>Email: </b></label>
+    <input name="email" type="email" id="email" placeholder="Ejemplo: elianitasuanguz@gmail.com" />
+    <br>
+    <label for="password"><br/><b>Contraseña: </b></label>
+    <input name="contraseña" type="password" id="password"  />
+    <br>
+    <label for="repeat"><br/><b>Repite Contraseña: </b></label>
+    <input name="username" type="password" id="repeat"  />
+    <br>
+    <label for="date"><br/><b>Fecha de Nacimiento: </b></label>
+    <input name="date" type="date" id="date" />
+    <br>
+    <label><br/><b>Cuenta algo sobre ti: </b></label>
+    <textarea cols="30" rows="10" minlength="10" maxlength="500" required></textarea>
+    <br>
+    <label><br/><b>Como nos conociste: </b></label>
+    <select name="red">
+        <option value="go">Google</option>
+        <option value="lin">Linkedin</option>
+        <option value="fac">Facebook</option>
+    </select>
+    <br>
+    <input type="submit" value="Registrarme"/>
+    <br>
+</form>
+</body>
+</html>
