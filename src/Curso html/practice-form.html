@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="../Curso Css/styleForm.css">
+</head>
+<body>
+<div class="form">
+<h1 class="title">Formulario de Comunicación</h1>
+
+    <form action="#" method="post">
+        <p>Puedes contactar con nosotros a través de este formulario o usando el correo electronico contactanos@gmail.com </p>
+        <p class="text"><b>Obligatorio*</b> </p>
+        <label for="name"> <br/><b>Nombre: * </b></label>
+        <input name="name" type="text" id="name" placeholder="Ejemplo: Eliana" required/>
+        <br>
+        <label for="LastName"><br/><b>Apellidos: </b></label>
+        <input name="LastName" type="text" id="LastName" placeholder="Ejemplo: Suancha Guzmán"/>
+        <br>
+        <label for="email"><br/><b>Correo Electronico: </b></label>
+        <input name="email" type="email" id="email" placeholder="Ejemplo: elianitasuanguz@gmail.com" />
+        <br>
+        <label><label><br/><b>Pais: </b></label>
+            <select name="red">
+                <option value="col">Colombia</option>
+                <option value="es">España</option>
+                <option value="ar">Argentina</option>
+            </select>
+            <br>
+        </label>
+        <br>
+        <label><br/><b>Mensaje: * </b></label>
+        <textarea cols="30" rows="10" minlength="20" maxlength="500" required></textarea>
+        <br>
+<div>
+    <br>
+    <input class="button" type="submit" value="Enviar Formulario"/>
+    <input class="button1" type="submit" value="Cancelar"/>
+</div>
+        <br>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+.title {
+    color: darkred;
+    font-size: 18px;
+    text-align: center;
+    background-color: yellow;
+    border: orange 3px solid;
+    border-radius: 10px;
+    padding: 9px;
+    width: 530px;
+}
+.form {
+    background-color: #72AE8C;
+    width: 600px;
+    height: 560px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.button {
+    background-color: gray;
+    color: #f9fbfc;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: dodgerblue;
+}
+.button1 {
+    background-color: gray;
+    color: #f9fbfc;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button1:hover {
+    background-color: red;
+}
+.text {
+    color: red;
+}
