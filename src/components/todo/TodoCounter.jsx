@@ -5,12 +5,13 @@ const TodoCounter = ({ completado, total }) => {
 
   return (
      <h1 style={{
-       fontSize: '24px',
+       fontSize: '40px',
+       backgroundColor: 'lavender',
        textAlign: 'center',
        margin:0,
        padding: '48px'
      }}>
-       Completaste {completado} de {total} tareas
+       Completed {completado} of {total} task
      </h1>
   );
 };

@@ -1,17 +1,16 @@
-import React from 'react';
+import React, {} from 'react';
 import "./TodoSearch.css"
 
-const TodoSearch = () => {
+const TodoSearch = ({searchValue, setSearchValue}) => {
+
   return (
     <div>
     <input placeholder='Estudiar dos horas diarias'
     className="TodoSearch"
+    value={searchValue}
     onChange={
       (event) => {
-      console.log('Escribiste en el TodoSearch')
-      console.log(event)
-      console.log(event.target)
-      console.log(event.target.value)
+        setSearchValue(event.target.value);
     }}
     />
     </div>

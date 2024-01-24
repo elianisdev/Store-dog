@@ -1,0 +1,66 @@
+/*ejemplo de selector de etiqueta si coloco una coma seguida de la etiqueta se llama agrupacon de contenido y quiere decir que lo q coloque ejemplo h2 llevara el mismo color que este en las reglas */
+h1, h3 {
+    color: cornflowerblue;
+    font-size: 72px;
+}
+h2 {
+    margin: 5px;
+}
+p {
+    color: hotpink;
+    font-size: 40px;
+}
+/*ejemplo de selector de clase siempre le coloco un . y el nombre de la clase*/
+.example {
+    color: teal;
+    font-size: 20px;
+}
+/*identificador uso # y el nombre del id que coloque ejemplo*/
+#my-p {
+  color: orchid;
+}
+/*Anidación ejemplo cojo un div y le coloco una clase clas="" y hago el atributo cualquiera en este caso es a y cuando voy a css lo llamo como.card espacio a {}*/
+.card a {
+    color: purple;
+}
+
+/*selector de atributo*/
+nav ul li a {
+    font-size: 72px;
+}
+/*para que algo se contenga lo hago entre corchetes []*/
+a[href="/"] {
+    color: darkred;
+}
+
+/** *permite especificar contenido de estilos para toda la pagina*/
+* {
+color: indigo
+}
+
+/*Jerarquia se usa !important como regla para q siempre se mantenga el css que se colocque */
+
+.title {
+    color: mediumpurple !important;
+}
+#title {
+    color: blue;
+}
+/*selectores hover el aspecto del elmento cuando el ratón pasa por encima*/
+
+button {
+    background-color: mediumpurple;
+    color: #f9fbfc;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: mediumvioletred;
+}
+/*Focus cuando el elemento obtiene el foco con el tabulador o cuando es seleccionado o pulsado*/
+ button:focus {
+     background-color: deeppink;
+ }
+
+

@@ -1,0 +1,34 @@
+/************ Medidas en porcentaje ligadas al elemento padre  ************/
+.container {
+  background-color: fuchsia;
+    width: 1800px;
+    height: 300px;
+
+}
+.child {
+  background-color: #B980FF;
+    width: 100%;
+    height: 40%;
+}
+/*medidas de vw vw= view width es un % con respecto a la anchura total a la ventana del navegador
+ view heiht es igual el porcentaje es el alto de la pantalla independiente de la medida del objeto padre es absoluto a las medidas del navegador
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+/*small view width svw dispositivo mobile scroll tanto como sea la cabecera dentro del dispositivo celular */
+/*Medidas de color*
+codigo exagecimal #a356b1
+rgb(163, 86, 177)
+hsl(286, 34%, 51%)
+matiz saturacion y luminosidad
+ */
+
+/*medida de texto*/
+em {
+  font-size: 2em;
+}
+rem {
+  font-size: 2rem;
+}
