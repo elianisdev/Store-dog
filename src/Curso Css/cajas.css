@@ -1,0 +1,37 @@
+h1, p, div, h3, b {
+    border: 5px double plum;
+    display: block;
+    border-radius: 50px;
+    border-top: 5px;
+}
+h1{
+    padding: 50px;
+    margin: 10px 10px 10px 80px;
+    border-top: #36617f 25px solid;
+}
+div {
+    padding-left: 25px;
+    padding: 25px;
+    padding-top: 29px;
+    padding-right: 70px;
+    padding-bottom: 5px;
+    background-color: #61d7ef;
+    width: 300px;
+    height: auto;
+    margin: 5px;
+
+}
+p {
+    padding: 50px 10px;
+    margin: 120px 50px;
+    color: #6c10de;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    min-width: 300px;
+    min-height: 200px;
+    font-family: "Agency FB";
+    text-transform: capitalize;
+    background-color: #b792a6;
+}

@@ -1,0 +1,28 @@
+h3 {
+    position: relative;
+    background-color: #B980FF;
+    padding: 15px;
+    top: 100px;
+    left: 100px;
+
+
+
+}
+p {
+    position: relative;
+    background-color: #61d7ef;
+    padding: 15px;
+    right: 20%;
+}
+
+.card {
+    position: relative;
+    background-color: #61d7ef;
+    width: 500px;
+    height: 500px;
+}
+.card h2 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
