@@ -1,0 +1,82 @@
+.form{
+    background-color: #36617f;
+    width: 450px;
+    height:460px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 145px;
+    object-fit: cover;
+
+}
+.text{
+    color: white;
+    font-size: 20px;
+    margin-left: 170px;
+    font-family: Arial, serif;
+}
+.rounded{
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 5px #ccc;
+        font-size: 16px;
+        font-family: Arial, serif;
+        background-color: #07274E ;
+        width: 400px;
+        height: 15px;
+        color: #FAFAFA;
+
+}
+.box{
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px #ccc;
+    font-size: 16px;
+    font-family: Arial, serif;
+    background-color: #07274E ;
+    color: #FAFAFA;
+    width: 400px;
+    height: 15px;
+}
+.check{
+    color: white;
+    font-size: 15px;
+    margin-right: 9px;
+    font-family: Arial, serif;
+    background-color: #07274E;
+}
+.text-remember{
+    color: white;
+    font-size: 15px;
+    margin-top: 9px;
+    font-family: "arial black", sans-serif;
+    background-color: #36617f;
+}
+.forgot{
+    color: white;
+    font-size: 15px;
+    margin-left: 100px;
+    font-family: "arial black", sans-serif;
+    background-color: #36617f;
+}
+.button{
+    background-color:  #07274E;
+    color: #f9fbfc;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 130px;
+    width: 150px;
+    height: 40px;
+    font-family: "arial black", sans-serif;
+    margin-bottom: initial;
+    margin-top:20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
