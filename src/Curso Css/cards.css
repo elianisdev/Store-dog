@@ -1,0 +1,98 @@
+h1 {
+    color: #33488e;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #eecbea;
+    border: 5px solid #f787f7;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #000000;
+    transition: 0.5s;
+    position: relative;
+}
+h1:hover {
+    background-color: #a072a0;
+}
+.card {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    background-color: #bec3f1;
+    width: 800px;
+    height: 700px;
+    margin: 5px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #d872d8;
+    transition: 0.5s;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.card:hover {
+    background-color: #e9bce4;
+}
+.title {
+    color: #6c10de;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #b792a6;
+    border: 5px solid #f3fcf4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #000000;
+    transition: 0.5s;
+    position: relative;
+}
+h2 {
+    color: #21242b;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #f2cdee;
+    border: 5px solid #cda2cd;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #000000;
+    transition: 0.5s;
+    position: relative;
+}
+
+.card:hover h2 {
+    background-color: #a072a0;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid rosybrown;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #d091c9;
+    transition: 0.5s;
+    position: relative;
+}
+p {
+    color: #212b2a;
+    font-size: 20px;
+    font-weight: unset;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #e4d1f1;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    border-radius: 25px;
+    border: #61d7ef;
+}
