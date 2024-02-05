@@ -14,15 +14,27 @@ p {
     padding: 15px;
     right: 20%;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .card {
     position: relative;
     background-color: #61d7ef;
     width: 500px;
     height: 500px;
+    margin: 5px;
 }
 .card h2 {
-    position: absolute;
+    Float: right;
+    background-color: #B980FF;
     top: 100px;
     left: 200px;
+    bottom: 0;
+    margin: 5px;
+}
+#cleaner {
+    clear: both;
 }
