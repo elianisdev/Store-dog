@@ -1,0 +1,47 @@
+ul {
+    list-style-type: square;
+    background-color: #36617f;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+li {
+    margin-bottom: 10px;
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: #61d7ef;
+}
+a:hover {
+    background-color: #fff;
+}
+p {
+    cursor: grab;
+}
+div {
+    height: 500px;
+    width: 500px;
+    background-color: #b8ef59;
+    overflow: scroll;
+}
+.Box1 {
+    height: 100px;
+    width: 100px;
+    background-color: #7880ca;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: #ef61e3;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
