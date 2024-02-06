@@ -1,0 +1,22 @@
+.card1 {
+    width: 900px;
+    height: 900px;
+
+    /*background-color: #8888ca; para fondo solido*/
+    /*background-image: url("./miacongo.jpg");
+    gradienets ingresoa l internet y busco css gradient generator*/
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 11%, rgba(252,70,107,1) 71%);
+    background-size: cover;
+    border-radius: 30px;
+    /*background size es mas usado par el tamaño de la imagen del fondo*/
+    /*background-image: url("./miacongo.jpg"); se usa para colocar una imagen de fondo*/
+}   /*background-position ayuda aubicar el fonde de la imagen de fondo*/
+    /*background- repeat */
+
+
+h1 {
+    color: #61d7ef;
+    text-align: center;
+    padding: 10px;
+}
