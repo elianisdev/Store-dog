@@ -1,0 +1,30 @@
+h1 {
+font-family: "Catherina.otf";
+}
+p {
+font-family: "Country Western Script";
+}
+@font-face {
+    font-family: "Catherina.otf";
+    src: url("../fonts/Catherina.otf") format("woff");
+}
+@font-face {
+    font-family: "Country Western Script";
+    src: url("../fonts/Country Wedd") format("woff");
+}
+/*con root se crea las variables y esas variables van con -- aqui controlamos todo el panel de variables*/
+:root {
+    --color-1: #865380;
+    --color-2: #ef61e3;
+    --color-3: #0000ff;
+    --font-title: arial;
+}
+/*se llama a las variables con var(--nombre de las variables creadas )*/
+h1 {
+    color: var(--color-1);
+    font-family: var(--font-title);
+}
+p {
+    color: var(--color-2);
+    font-family: var(--font-title);
+}
