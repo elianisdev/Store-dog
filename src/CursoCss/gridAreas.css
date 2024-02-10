@@ -22,4 +22,5 @@ footer {
 main {
   grid-area: content;
   background-color: #7be5d9;
+  border-radius: 15px ;
 }
