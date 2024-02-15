@@ -94,3 +94,52 @@ document.addEventListener("evento", function(){
 let numero = null;
 console.log(numero);
 
+let nombre = prompt("Ingrese su nombre");
+console.log(nombre);
+
+/*operadores aritmeticos*/
+let num1 = 5;
+let num2 = 10;
+let resultado = num1 + num2;
+console.log(resultado);
+
+/*operadores de asignacion*/
+let a = 5;
+let b = 10;
+a += b;
+document.write(a);
+
+/*concatenacion*/
+let nombre1 = "Juan";
+let apellido = "Perez";
+let nombreCompleto = nombre1 + " " + apellido;
+console.log(nombreCompleto);
+
+frase1 = "Hola";
+frase2 = `soy ${nombre1}`;
+
+/*operadores logicos*/
+let valor1 = true;
+let valor2 = false;
+let resultado1 = valor1 && valor2;
+
+let numero1 = 10;
+let numero2 = 20;
+
+document.write(numero1 === numero2);
+
+/*Operadores logicos*/
+let valor3 = true;
+let valor4 = false;
+let resultado2 = valor3 || valor4;
+console.log(resultado2);
+
+
+num1 = 10;
+num2 = 20;
+num3 = 30;
+num4 = 40;
+num5 = 50;
+
+op = (num1 > num2) && (num3 < num4) || (num5 > num4)&& (num5 === num3);
+/*False, true true false */
