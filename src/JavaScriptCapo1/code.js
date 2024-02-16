@@ -143,3 +143,13 @@ num5 = 50;
 
 op = (num1 > num2) && (num3 < num4) || (num5 > num4)&& (num5 === num3);
 /*False, true true false */
+
+/*condicionales*/
+let edad = 18;
+if (edad >= 18) {
+    console.log("Eres mayor de edad");
+}
+else{
+    console.log("Eres menor de edad");
+}
+
