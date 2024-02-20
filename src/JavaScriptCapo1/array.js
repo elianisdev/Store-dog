@@ -37,8 +37,13 @@ for (let animal of animales) {
     document.write(animal + "<br>");
 }
 /*fUNCIONES*/
-function suma(a, b) {
+/*function suma(a, b) {
     return a + b;
 }
-document.write(suma(5, 5));
+document.write(suma(5, 5));*/
 /*Funciones flecha*/
+const saludar = (nombre) => {
+    return "Hola " + nombre + "!";
+}
+saludar("eliana");
+/*foreach*/
