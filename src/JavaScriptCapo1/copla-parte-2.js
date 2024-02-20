@@ -55,3 +55,25 @@ const tomarAsistencia = (nombre, p) => {
     document.write(resultado);
   }
   console.log(alumnosTotales);
+
+  /*Crear calculadora*/
+  const sumar = (num1, num2) => {
+    return parseInt(num1) + parseInt(num2);
+  }
+  const restar = (num1, num2) => {
+    return parseInt(num1) - parseInt(num2);
+  }
+  const multiplicar = (num1, num2) => {
+    return parseInt(num1) * parseInt(num2);
+  }
+  const dividir = (num1, num2) => {
+    return parseInt(num1) / parseInt(num2);
+  }
+  const calculadora = (num1, num2, operacion) => {
+    return operacion(num1, num2);
+  }
+  console.log(calculadora(2, 2, sumar));
+  console.log(calculadora(2, 2, restar));
+  console.log(calculadora(2, 2, multiplicar));
+  console.log(calculadora(2, 2, dividir));
+  console.log(calculadora(2, 2, (num1, num2) => num1 * num2)); //funcion anonima
