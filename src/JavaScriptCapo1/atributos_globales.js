@@ -22,3 +22,11 @@ const input = document.querySelector(".input-normal");
 document.write(input.type = "range")
 input.setAttribute("minlength", "4")
 titulo.style.color = "red"
+titulo.style.backgroundColor = "black"
+
+/*classList*/
+//document.write(input.classList)
+input.classList.add("input-grande")
+input.classList.remove("input-grande")
+input.classList.toggle("input-grande")
+/*cofla se quedo encerrado en sucas porque se le rompio la llave */
