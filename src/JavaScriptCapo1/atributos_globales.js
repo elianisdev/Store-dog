@@ -29,4 +29,4 @@ titulo.style.backgroundColor = "black"
 input.classList.add("input-grande")
 input.classList.remove("input-grande")
 input.classList.toggle("input-grande")
-/*cofla se quedo encerrado en sucas porque se le rompio la llave */
+/*cofla se quedò encerrado en sucas porque se le rompio la llave */
