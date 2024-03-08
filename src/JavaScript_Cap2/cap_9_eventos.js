@@ -19,3 +19,10 @@ button.addEventListener('click', (event) => {
 
 }
 );
+ setTimeout(() => {
+    button.removeEventListener('click', () => {
+        console.log('button was clicked');
+    }
+    );
+}
+, 3000);
