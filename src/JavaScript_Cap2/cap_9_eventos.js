@@ -3,3 +3,19 @@ const button = document.querySelector('.button');
 button.addEventListener('click', () => {
     console.log('button was clicked');
 }
+);
+/*manejador de eventos con parametros*/
+const button = document.querySelector('.button');
+button.addEventListener('click', (event) => {
+    console.log(event);
+}
+);
+/*manejador de eventos con parametros*/
+const button = document.querySelector('.button');
+button.addEventListener('click', (event) => {
+    console.log(event
+    );
+    console.log(event.target);
+
+}
+);
