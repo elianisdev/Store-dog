@@ -1,0 +1,26 @@
+body {
+    color: #000;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+input {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #eaf4f3
+}
+input[type="submit"] {
+    width: 50%;
+    margin-top: 18px;
+    padding: 9px;
+    background-color: #eedfec;
+}
+form {
+    width: 86%;
+    margin: auto;
+    background: #7b92e5;
+    padding: 30px;
+}
