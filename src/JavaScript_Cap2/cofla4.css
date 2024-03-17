@@ -12,6 +12,9 @@ input {
     border-radius: 10px;
     background-color: #eaf4f3
 }
+input:hover {
+    background-color: #d3e0df;
+}
 input[type="submit"] {
     width: 50%;
     margin-top: 18px;
@@ -23,4 +26,8 @@ form {
     margin: auto;
     background: #7b92e5;
     padding: 30px;
+}
+h2 {
+    text-align: center;
+    color: #fff;
 }

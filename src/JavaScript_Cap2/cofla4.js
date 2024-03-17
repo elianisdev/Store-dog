@@ -2,23 +2,45 @@
 
 /*cofla reprobo 2 materias y ahora tiene que enviar un formulario para registrarse en la materia que debe*/
 
-const form = document.querySelector('.form');
-const button = document.querySelector('.button');
-const name = document.querySelector('.name');
-const mail = document.querySelector('.mail');
-const materia = document.querySelector('.materia');
+const nombre = document.getElementById("nombre");
+const mail = document.getElementById("mail");
+const materia = document.getElementById("materia");
+const boton = document.getElementById("boton");
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    console.log('enviando formulario...');
-    console.log('nombre: ' + name.value);
-    console.log('mail: ' + mail.value);
-    console.log('materia: ' + materia.value);
-    if (name.value.trim().length > 0 && mail.value.trim().length > 0 && materia.value.trim().length > 0) {
-        console.log('formulario enviado');
-    } else {
-        console.log('formulario no enviado');
+boton.addEventListener("click", () => {
+    if (validarMail(mail) && validarNombre(nombre)) {
+        enviarDatos();
     }
-}, false);
+}
+);
+
+const validarMail = (mail) => {
+    if (mail.value.includes("@") && mail.value.includes(".")) {
+        return true;
+    } else {
+        alert("Mail no valido");
+        return false;
+    }
+}
+
+const validarNombre = (nombre) => {
+    if (nombre.value.length > 0) {
+        return true;
+    } else {
+        alert("Nombre no valido");
+        return false;
+    }
+}
+
+const enviarDatos = () => {
+    const datos = {
+        nombre: nombre.value,
+        mail: mail.value,
+        materia: materia.value
+    }
+    console.log(datos);
+    //enviar datos al servidor
+}
+
 
 
