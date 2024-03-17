@@ -25,11 +25,12 @@ alumno = [{
   }
 ];
 let boto = document.querySelector(".boton");
-let alumnosTotales = alumno;
+let alumnosTotales = [];
+
 
 for (let alumno in alumnosTotales) {
 
- let datos = alumno[alumno];
+ let datos = alumnosTotales[alumno];
  let nombre = datos.nombre;
   let email = datos.email;
 let materia = datos.materia;
