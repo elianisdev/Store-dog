@@ -5,7 +5,7 @@
 const nombre = document.getElementById("nombre");
 const mail = document.getElementById("mail");
 const materia = document.getElementById("materia");
-const boton = document.getElementById("boton");
+let boton = document.getElementById("boton");
 
 boton.addEventListener("click", () => {
     if (validarMail(mail) && validarNombre(nombre)) {
