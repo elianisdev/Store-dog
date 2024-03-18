@@ -1,0 +1,37 @@
+body {
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.Form {
+    background-color: #1d6776;
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    width: fit-content;
+    margin-left : auto;
+    margin-right : auto;
+}
+h2 {
+    flex-grow: 1;
+    color: #e8e9f2;
+    margin: 0 15px 0 0;
+}
+
+input {
+width: 30px;
+    border: none;
+
+}
+
+input[type="button"] {
+   width: auto;
+    margin-left: 5px;
+    color: #060c21;
+    background-color: #81ddf1;
+    border: none;
+    letter-spacing: 1px;
+}
