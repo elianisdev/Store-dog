@@ -38,9 +38,12 @@ case 10:
       console.log('Muy mal');
 
   }
+  return resultado;
 }
 const abrirModal = (mensaje, resultado) => {
 console.log( mensaje, resultado);
 
 }
+
+
 
